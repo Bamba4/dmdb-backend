@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../mondee-interact"
+		},
+		{
+			"path": "../my_first_app"
+		},
+		{
+			"path": "../dahiramdp"
+		}
+	],
+	"settings": {
+		"jira-plugin.workingProject": ""
+	}
+}
