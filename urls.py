@@ -17,9 +17,11 @@ from django.contrib import admin
 from django.urls import path
 from django.views.decorators.csrf import csrf_exempt
 from graphene_django.views import GraphQLView
+from dmdbBaseManagement import views
 from schema import schema
 
 urlpatterns = [
+    path('/', views.index),
     path("graphql/", csrf_exempt(GraphQLView.as_view(graphiql=True, schema=schema))),
     path('admin/', admin.site.urls),
 ]
