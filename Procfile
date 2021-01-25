@@ -1,1 +1,1 @@
-web:gunicorn dmdb.wsgi --log-file -
+web:gunicorn dmdb.wsgi
