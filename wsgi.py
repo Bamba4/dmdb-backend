@@ -1,5 +1,5 @@
 """
-WSGI config for dmdb project.
+WSGI config for dmdb-backend project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
