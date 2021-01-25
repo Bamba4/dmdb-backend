@@ -21,7 +21,6 @@ from dmdbBaseManagement import views
 from schema import schema
 
 urlpatterns = [
-    path('/', views.index),
     path("graphql/", csrf_exempt(GraphQLView.as_view(graphiql=True, schema=schema))),
     path('admin/', admin.site.urls),
 ]
